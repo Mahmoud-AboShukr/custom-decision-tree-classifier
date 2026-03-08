@@ -36,7 +36,7 @@ The implementation is then tested on:
 decision-tree-from-scratch/
 ├── README.md
 ├── requirements.txt
-└── code.ipynb
+└── custom-decision-tree-classifier.ipynb
 ```
 
 ## Installation
@@ -99,12 +99,6 @@ The project relies on:
 - scikit-learn
 - jupyter
 
-## Notes
-
-- The implementation is educational and intended to demonstrate the internal logic of decision trees clearly.
-- Some evaluation cells in the notebook appear exploratory, so you may want to clean or refactor them slightly before publishing for a polished public repository.
-- For a public GitHub version, it is a good idea to clear notebook outputs before committing.
-
 ## Possible Improvements
 
 - add support for entropy as an alternative split criterion
@@ -113,6 +107,3 @@ The project relies on:
 - compare the custom implementation against scikit-learn's `DecisionTreeClassifier`
 - refactor notebook code into reusable Python modules
 
-## License
-
-You can add an MIT License if you want to make the repository openly reusable.
